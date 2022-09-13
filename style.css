@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho{
+max-width: 1365px;
+max-height: 621px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.cabecalho-titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.cabecalho-subtitulo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.calculadora{
+  padding-top: 50px;
+  max-width: 1365px;
+  max-height: 621px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculadora-form-field{
+  width: 500px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightblue;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.calculadora-form-field-1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.calculadora-form-field-2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculadora-form-field-3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculadora-form-field-calcular-1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 30px; 
+  background-color: lightgray;
+  border-radius: 3px;
+  width: 173px;
+}
+
+.calculadora-form-field-calcular-1:hover{
+  background-color: white;
+}
+
+.calculadora-field{
+  height: 100px;
+  width: 173px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.calculadora-field-resultado-1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 35px;
+  width: 125px;
+}

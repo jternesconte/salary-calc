@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+  <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon" />
+  <title>Calculadora de salário</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <h1 class="cabecalho-titulo">Calculadora de salário</h1>
+    <p class="cabecalho-subtitulo">Descubra quanto você ira ganhar descontando os impostos que paga no tempo que for determinado</p>
+  </header>
+
+  <main class="calculadora">
+    <form class="calculadora-form">
+      <fieldset class="calculadora-form-field">
+        <div class="calculadora-form-field-1">
+          <label>Salário</label>
+          <input type="number" name="salario" id="salario">
+        </div>
+
+        <div class="calculadora-form-field-2">
+          <label>Imposto pago (%)</label>
+          <input type="number" name="imposto" id="imposto">
+        </div>
+
+        <div class="calculadora-form-field-3">
+          <label>Meses</label>
+          <input type="number" name="tempo" id="tempo">
+        </div>
+
+        <div class ="calculadora-form-field-calcular">
+          <button type="button" name="botao" id="calcular" onclick="montante()" class ="calculadora-form-field-calcular-1">Calcular</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <fieldset class ="calculadora-field">
+      <div class ="calculadora-field-resultado">
+        <input class="calculadora-field-resultado-1" type="number" name="resultado" id="resultado">
+      </div>
+    </fieldset>
+
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+</html>
